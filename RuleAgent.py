@@ -9,7 +9,7 @@ class Agent:
 		# (left (45deg), left (10deg), center, right (10deg), right (45deg))
 		lidar_values = observations['lidar']
 
-		# Access left lidar
+		# Access single lidars
 		lid_val_left45 = observations['lidar'][0]
 		lid_val_left10 = observations['lidar'][1]
 		lid_val_center = observations['lidar'][2]
